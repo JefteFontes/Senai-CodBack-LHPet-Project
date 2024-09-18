@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h1>Sistema de Controle Interno - LH Pet</h1>
+    <div class = "divider"></div>
+    <div class="text-center"><h2>Lista de Clientes e Fornecedores</h2></div>
+    <h4>Clientes</h4>
+    <div class="section-head">
+        <div class="client-element-id">Id</div>
+        <div class="client-element-name">Nome</div>
+        <div class="client-element-doc">CPF</div>
+        <div class="client-element-email">Email</div>
+        <div class="client-element-pacient">Paciente</div>
+    </div>
+    @foreach (var item in @ViewBag.listaClientes)
+    {
+        <div class="section-list">
+            <div class="client-element-id">@item.Id</div>
+            <div class="client-element-name">@item.Nome</div>
+            <div class="client-element-doc">@item.Cpf</div>
+            <div class="client-element-email">@item.Email</div>
+            <div class="client-element-pacient">@item.Paciente</div>
+        </div>
+    }
+    <div class = "info-qte">Quantidade de clientes: @ViewBag.listaClientes.Count</div>
+    <h4>Fornecedores</h4>
+    <div class="section-head">
+        <div class="forn-element-id">Id</div>
+        <div class="forn-element-name">Nome</div>
+        <div class="forn-element-doc">CNPJ</div>
+        <div class="forn-element-email">Email</div>
+    </div>
+    @foreach (var item in @ViewBag.listaFornecedores)
+    {
+        <div class="section-list">
+            <div class="forn-element-id">@item.Id</div>
+            <div class="forn-element-name">@item.Nome</div>
+            <div class="forn-element-doc">@item.Cnpj</div>
+            <div class="forn-element-email">@item.Email</div>
+        </div>
+    }
+    <div class = "info-qte">Quantidade de fornecedores: @ViewBag.listaFornecedores.Count</div>
+</div>
