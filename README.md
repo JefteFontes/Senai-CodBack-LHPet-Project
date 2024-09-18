@@ -44,3 +44,49 @@ Siga os passos abaixo para rodar o projeto localmente:
    ```bash
    git clone https://github.com/usuario/Senai-CodBack-LHPet-Project.git
    ```
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd Senai-CodBack-LHPet-Project
+   ```
+3. Restaure as dependências:
+
+   ```bash
+   dotnet restore
+   ```
+4. Inicie a aplicação:
+
+   ```bash
+   dotnet run
+   ```
+5. Acesse a aplicação no navegador utilizando o endereço:
+
+   ```bash
+   [dotnet run](http://localhost:5000)
+   ```
+## Tecnologias Utilizadas
+
+- **.NET 8.0**: Framework para desenvolvimento da aplicação.
+- **MVC (Model-View-Controller)**: Arquitetura utilizada para separar a lógica de negócios, interface de usuário e controle de fluxo.
+
+## Configurações Adicionais
+
+Arquivos de configuração estão presentes no projeto, incluindo `appsettings.Development.json` e `appsettings.json`. Estes arquivos são responsáveis por definir strings de conexão, configurações de ambiente, etc.
+
+## Contribuindo
+
+1. Faça um fork do projeto.
+2. Crie sua feature branch:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça o commit das suas alterações:
+
+   ```bash
+   git commit -m 'Adicionando uma nova feature'
+   ```
+4. Faça um push para a branch:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request.
