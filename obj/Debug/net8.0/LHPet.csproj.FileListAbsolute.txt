@@ -28,3 +28,4 @@ C:\Users\jefte\Desktop\senai-codback-MVC\LHPet\obj\Debug\net8.0\refint\LHPet.dll
 C:\Users\jefte\Desktop\senai-codback-MVC\LHPet\obj\Debug\net8.0\LHPet.pdb
 C:\Users\jefte\Desktop\senai-codback-MVC\LHPet\obj\Debug\net8.0\LHPet.genruntimeconfig.cache
 C:\Users\jefte\Desktop\senai-codback-MVC\LHPet\obj\Debug\net8.0\ref\LHPet.dll
+C:\Users\jefte\Desktop\senai-codback-MVC\LHPet\obj\Debug\net8.0\LHPet.sourcelink.json
